@@ -4,7 +4,7 @@
 
 En java el código se lee de arriba hacia abajo, además de estar estructurado por clases y objetos de esas clases. Cada archivo de programación que creamos se le conoce como clase y al final nuestro programa está conformado por un montón de clases. Todas las clases deben tener un constructor cuyo objetivo es inicializar (métodos y características) un objeto de esa clase, pero eso lo veremos después.
 
-Al crear una clase en java, el nombre de nuestro archivo debe de ser el mismo que el de nuestra clase y tener la terminación **.java**, así nuestro archivo deberá llamarse **Primera.java**. Java es sensible a mayúsculas y minúsculas, debemos de recordar que tanto el nombre de nuestro archivo como el de nuestra clase debe de comenzar con Mayúscula. Tampoco es posible ocupar palabras reservadas en java como nombres de las clases. 
+Al crear una clase en java, el nombre de nuestro archivo debe de ser el mismo que el de nuestra clase y tener la terminación **.java**, así nuestro archivo deberá llamarse **Primera.java**. Java es sensible a mayúsculas y minúsculas, debemos de recordar que tanto el nombre de nuestro archivo como el de nuestra clase debe de comenzar con Mayúscula. Tampoco es posible ocupar **palabras reservadas** en java como nombres de las clases. 
 
 
 ```
