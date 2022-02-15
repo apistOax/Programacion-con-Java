@@ -22,11 +22,10 @@ La clase smartphone puede tener objetos del tipo
 - Redmi Note
 - Galaxy Note
 
-Todos estos objetos tienen comportamientos similares como: llamar(), recibirMensajes() y caracteristicas similares como tamañoDeMemoria, megaPixelesDeLaCamara, etc. 
+Todos estos objetos tienen comportamientos similares como: llamar(), recibirMensajes() y características como tamañoDeMemoria, megaPixelesDeLaCamara, etc. 
 
 ## Variables
 Java es un lenguaje de *tipado fuerte* es decir cuando definimos una variable tenemos que expresar el tipo de dato que se va a utilizar. Por ejemplo, al asignar a
-
 
 ```
 int myNum = 5;               // Integer (whole number)
@@ -38,14 +37,10 @@ String myText = "Hello";     // String
 Cabe aclarar que la sintaxis es la siguiente *variable* = *expresión*;
 por lo que siempre debemos de terminar nuestra linea de código con un punto y coma, así le decimos al compilador que hemos terminado la instrucción.
 
-Los tipos de datos que tenemos en java son los siguientes:
+La asignación produce un cambio de estado, se compone de una variable y una expresión. Un programa está compuesto de una secuencia de instrucciones. Primero hay que definir las variables para luego realizar una serie de pasos empleando esas variables en un programa.
 
-
-
-La asignación produce un cambio de estado, se compone de una varibale y una expresión. Un programa está compuesto de una secuencia de instrucciones. Primero hay que definir las variables para luego realizar una serie de pasos empleando esas variables en un programa.
-
-Como ya habiamos mencionado el código se le de arriba hacia abajo, así que si declaramos una varibale y le asignamos un valor e inmediatamente después le asignamos otro, se le quedara guardado el ultimo valor. 
-
+Como ya habíamos mencionado el código se le de arriba hacia abajo, así que si declaramos una variable y le asignamos un valor e inmediatamente después le asignamos otro, se le quedara guardado el ultimo valor.
+ 
 ```
 int edad = 15;
 edad = 20;
