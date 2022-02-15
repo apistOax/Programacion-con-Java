@@ -1,2 +1,3 @@
 # Programacion-con-Java
-Clase de Java 
+
+Repositorio de las clases y códigos realizados durante el curso. 
