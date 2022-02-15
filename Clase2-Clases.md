@@ -1,0 +1,28 @@
+# Clases en java
+
+Como ya habíamos dicho, Java es un lenguaje de programación orientado a objetos, es decir simula virtualmente la realidad por medio de clases, o *tipo de datos*. Las clases son un conjunto de objetos con características (datos) y comportamientos (funcionalidad) idénticos. Un programa son un conjunto de clases que interactúan entre sí. Este paradigma es más fácil de entender si tenemos conocimientos previos sobre la *teoría de conjuntos*.
+
+Los tipos de datos que podemos declarar en java, por ejemplo *String* también son una clase que tienen sus propias características y comportamientos pero que fueron diseñados para representar una unidad de almacenamiento en la máquina. En java es el programador el que puede definir una clase para modelar el problema que está resolviendo. Es lo que hace poderoso al lenguaje.
+
+ Es posible extender el lenguaje de programación añadiendo nuevos tipos de datos específicos de las necesidades de cada problema.
+
+Pongamos de ejemplo al conjunto de las frutas o a la *Clase* frutas la cual tiene ciertas características:
+- sabor: puede ser dulce o amargo
+- forma: alargada, ovalada, redonda
+- color: roja, verde, amarilla
+
+pero tambien tiene ciertos comportamientos o que es lo que podemos hacer con ellas
+- hacer jugo
+- comerla
+- pelarla
+- etc.
+
+![conjuntos-y-subconjuntos-1](https://user-images.githubusercontent.com/99680214/154113419-fd119d80-6e9a-4584-88de-758469ff0ab1.png)
+
+|Clase| Objeto|
+|-----|--------|
+|Fruta|manzana platano aguacate|
+
+Podemos decir entonces que un objeto es una instancia de una clase que hereda todo los metodos y variables de la clase.
+
+### Ejercicio: Crea tu propia clase con tus propios métodos.
