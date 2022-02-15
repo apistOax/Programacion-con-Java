@@ -25,4 +25,29 @@ pero tambien tiene ciertos comportamientos o que es lo que podemos hacer con ell
 
 Podemos decir entonces que un objeto es una instancia de una clase que hereda todo los metodos y variables de la clase.
 
-### Ejercicio: Crea tu propia clase con tus propios métodos.
+### Ejercicio: Crea tu propia clase frutas con los atributos que vimos
+
+```
+public class Frutas {
+    //Atributos de las clase: Las caracteristícas
+    String nombre;
+    String sabor;
+    String forma;
+    String color;
+    }
+```
+### Constructores
+
+Cuando creamos una clase es necesario crear un constructor. Un constructor es un método que inicializara un objeto de la clase. Como veremos después un constructor debe ser del tipo *public* pues solo podra accederse a el mediante objetos.
+
+```
+    public Frutas(){
+        //Constructor sin parámetros (constructor por defecto)
+    }//Cierre del constructor
+```
+El anterior constructor inicializa un objeto de una clase sin parametros, es decir, será iniciado con los valores predeterminados por el sistema:
+- Los atributos numéricos a cero
+- Los alfanuméricos a nulo
+- Las referencias a objetos a null
+
+
