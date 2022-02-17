@@ -97,9 +97,20 @@ Hola. Me llamo David y tengo 12 años y mido 1.6m
 David
 
 ## Operadores
+Java tiene distintos tipos de operadores entre ellos:
 
-- Arithmetic operators
-- Assignment operators
-- Comparison operators
-- Logical operators
-- Bitwise operators
+- Operadores aritmeticos
+- Operadores de asignación
+- Operadores de comparación
+- Operadores lógicos
+
+### Los operadores aritmeticos son todos aquellos que representan una operación matemática básica
+
+|Operador | Operación |Descripción|
+|---------|-----------|-----------|
+|+|adición|suma dos valores|
+|-|sustracción|resta dos números|
+|* |multiplicación | multiplica dos números|
+|/ |divisón| divide un valor sobre otro|
+|% | módulo | devuelve el residuo de una divisón| 
+|--|decremento| Le resta el valor de 1 a una variable|
