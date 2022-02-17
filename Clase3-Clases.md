@@ -50,4 +50,22 @@ El anterior constructor inicializa un objeto de una clase sin parametros, es dec
 - Los alfanuméricos a nulo
 - Las referencias a objetos a null
 
+Podemos tener tantos constructores como queramos o necesitemos, siempre y cuando cada uno inicialice un objeto de manera diferente. 
+```
+    public Frutas(String valorNombre){
+        //Constructor que solo inicializa el atributo nombre del objeto
+        nombre = valorNombre;
+    }
+```
+El anterior constructor solo inicializa el nombre, pero el de a continuación inicializa todos los parámetros, dependerá de nosotros y del tipo de problema que estemos resolviendo para crear el o los constructores que necesitemos.
+
+```
+    public Frutas(String valorNombre,String valorSabor,String valorForma,String valorColor){
+        //Constructor con parámetros que inicializa un objeto con esos parámetros
+        nombre = valorNombre;
+        sabor = valorSabor;
+        forma = valorForma;
+        color = valorColor;
+    }//Cierre del constructor
+```
 
