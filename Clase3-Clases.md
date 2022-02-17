@@ -61,7 +61,7 @@ El anterior constructor solo inicializa el nombre, pero el de a continuación in
 
 ```
     public Frutas(String valorNombre,String valorSabor,String valorForma,String valorColor){
-        //Constructor con parámetros que inicializa un objeto con esos parámetros
+        //Constructor que recibe parámetros con los que inicializa los atributos del objeto
         nombre = valorNombre;
         sabor = valorSabor;
         forma = valorForma;
