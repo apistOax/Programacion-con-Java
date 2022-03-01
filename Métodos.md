@@ -29,6 +29,16 @@ La salida al final será la suma: 30.
 
 ![Untitled Workspace](https://user-images.githubusercontent.com/99680214/156018466-16ee2e55-668b-4656-bb28-5e60ce31f0be.png)
 
+### ¿Qué es un Método static en Java?
+
+Un método static en Java es un método que pertenece a la clase y no al objeto. Un método static solo puede acceder a variables o tipos de datos declarados como static.
+
+- Un método static sólo puede acceder a datos static. No puede acceder a datos no static (variables de instancia).
+- Un método static puede llamar solo a otros métodos static y no puede invocar un método no static a partir de él.
+- Un método static se puede acceder directamente por el nombre de la clase y no se necesita crear un objeto para acceder al método (aunque se puede hacerlo).
+- Un método static no puede hacer referencia a «this» o «super».
+
+
 
 
 
